@@ -1,6 +1,6 @@
 let first_name = prompt ('inserisci il tuo nome');
 let second_name = prompt ('inserisci il tuo cognome');
 let color = prompt ('inserisci il tuo colore preferito');
-let String =  `${first_name} ${second_name} ${color}`;
+let String =  `${first_name}${second_name}${color} 23`;
 console.log(String);
-document.getElementById('login').innerHTML = `${first_name} ${second_name} ${color} 23`;
+document.getElementById('login').innerHTML = String;
